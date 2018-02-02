@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -2435,4 +2434,4 @@ If you have ideas for more “How To” recipes that should be on this page, [le
 =======
 # svg-react-netherlands-map
 A React component that draws a map of the Netherlands with 12 regions as an SVG. It also provides an { onClick, onMouseEnter, onMouseOut } events for each region, passing the region name and a list of the selected regions, including wide options for styling using inline style object passed as a prop.
->>>>>>> 3b9323d098d4e60a92f0600bc3c1f3f830e279e4
+

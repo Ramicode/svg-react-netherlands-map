@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import regions from './Map.json'
-
 class Map extends Component {
   constructor(props) {
     super(props)
@@ -206,14 +205,14 @@ class Map extends Component {
        } = this.state
     return (
       <div>
-        <svg className='Map'
+        <svg
           width={width}
           height={height}
           viewBox={viewBox}
         >
           {Object.keys(regions).map(region => {
             return (
-              <g className='Region'
+              <g
                 key={region}
               >
                 <path
