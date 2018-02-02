@@ -1,0 +1,44 @@
+{
+  "name": "maps-svg-netherlands",
+  "version": "0.1.0",
+  "description": "A React component that draws a map of the Netherlands with 12 regions as an SVG. It also provides an { onClick, onMouseEnter, onMouseOut } events for each region, passing the region name and a list of the selected regions, including wide options for styling using inline style object passed as a prop.",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramicode/svg-netherlands-map-react.git"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "map",
+    "maps",
+    "netherlands",
+    "nederland"
+  ],
+  "author": {
+    "name": "Rami",
+    "email": "ramixpx@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  } 
+}
